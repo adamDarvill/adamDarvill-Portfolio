@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: darkgrey;
+}
+
+.nav-bar {
+  display: flex;
+  margin: auto;
+  height: 40;
+  background-color: darkgreen;
+  justify-content: space-between;
+}
+
+.nav-bar .title {
+  padding: 10px;
+  font-size: 30px;
+}
+
+.nav-bar-menu ul {
+  display: flex;
+  list-style: none;
+  padding-right: 10px;
+}
+
+.nav-bar-menu ul li {
+  justify-content: space-between;
+  padding-right: 15px;
+}
+
+.title {
+  font-size: 25px;
+  text-align: center;
+}
